@@ -1,0 +1,524 @@
+@charset "utf-8";
+.rank{
+	width: 100%;
+	height: 1302px;
+	background: #F7F7F7;
+}
+/*ranking容器*/
+.rank .r_container{
+	width: 980px;
+	height: 1300px;
+	margin: 0 auto;
+	/*background: red;*/
+	position: relative;
+}
+/*左半部分*/
+/*ranking左边导航栏*/
+.rank .r_container .r_side{
+	width: 238px;
+	height: 1300px;
+	background: #F7F7F7;
+	border: none;
+	left: 0;
+	position: absolute;
+	top: 1px;
+	border: 1px solid #CCCCCC;
+	border-top:none;
+}
+/*左边的container*/
+.rank .r_container .r_side .side_container{
+	width: 230px;
+	height: 100%;
+	margin-top: 40px;
+	/*background: lavender;*/
+	
+}
+/*字体共同特征*/
+.rank .r_container .r_side .side_container .r_f{
+	display: inline-block;
+	width: 215px;
+	height: 15.2px;
+	font-size: 14px;
+	color: #000000;
+	/*background: orange;*/
+	font-family: simsun,"宋体";
+	padding: 0 10px 12px 15px;
+}
+.rank .r_container .r_side .side_container .r_f1{
+	padding: 10px 10px 12px 15px;;
+}
+/*左边item ul*/
+.rank .r_container .r_side .side_container .r_ff{
+	width: 237px;
+	/*background: red;*/
+}
+/*左边item ul li*/
+.rank .r_container .r_side .side_container .r_ff .r_select{
+	padding: 10px 0 10px 20px;
+	height: 42px;
+	/*background: red;*/
+	position: relative;
+}
+.rank .r_container .r_side .side_container .r_ff .r_select .r_in1{
+	height: 42px;
+	width: 237px;
+	background: rgb(230, 230, 230);padding: 10px 0 10px 20px;
+	position: absolute;
+	top: 0;left: 0;
+}
+/*左边item ul li div*/
+.rank .r_container .r_side .side_container .r_ff .r_select .r_item{
+	float: left;
+}
+.rank .r_container .r_side .side_container .r_ff .r_select .r_item a{
+	width: 40px;
+	height: 40px;
+}
+.rank .r_container .r_side .side_container .r_ff .r_select p{
+	display: inline-block;
+	width: 150px;
+	font-size: 12px;
+	font-family: arial,helvetica,sans-serif;
+	margin: 2.5px 10px;
+}
+.rank .r_container .r_side .side_container .r_ff .r_select a{
+	color: #333333;
+}
+.rank .r_container .r_side .side_container .r_ff .r_select .aaa{
+	color: #999999;
+}
+/*右半部分*/
+/*ranking右边部分*/
+.rank .r_container .r_content{
+	width: 739px;
+	height: 1300px;
+	background: white;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	right: 0;
+	top: 1px;
+	position: absolute;
+}
+/*ranking右边header*/
+.rank .r_container .r_content .r_header{
+	width: 740px;
+	height: 158px;
+	/*background: greenyellow;*/
+	padding: 40px 0;
+}
+/*ranking右边header容器*/
+.rank .r_container .r_content .r_header .h_container{
+	width: 660px;
+	height: 150px;
+	margin: 0 40px;
+	/*background: red;*/
+	position: relative;
+}
+/*ranking右边header图片*/
+.rank .r_container .r_content .r_header .h_container .h_img{
+	width: 149.5px;
+	height: 149.5px;
+	/*background: lightblue;*/
+	/*float: left;*/
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+}
+/*ranking右边header图片设计*/
+.rank .r_container .r_content .r_header .h_container .h_img img{
+	width: 150px;
+	height: 150px;
+}
+/*ranking右边header图片右边*/
+.rank .r_container .r_content .r_header .h_container .h_cha{
+	width: 500px;
+	height: 156px;
+	/*background: lavender;*/
+	float: right;
+	position: absolute;
+	right: 0;top: 0;
+}
+/*div:h_cha1*/
+.rank .r_container .r_content .r_header .h_cha .h_cha1{
+	width: 480px;
+	height: 60px;
+	/*background: lightcoral;*/
+	margin-left: 30px;
+}
+/*div字体样式h2*/
+.rank .r_container .r_content .r_header .h_cha .h_cha1 .h_f1{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	margin-top: 15px;
+}
+/*div字体样式p*/
+.rank .r_container .r_content .r_header .h_cha .h_cha1 .h_f2{
+	color: #666666;
+	font-size: 12px;
+	font-family: arial,helvetica;
+	/*background: lawngreen;*/
+	margin-top: 10px;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha1 .h_f2 span{
+	color: #999999;
+}
+/*div字体样式p时间图片*/
+.rank .r_container .r_content .r_header .h_cha .h_cha1 .h_f2 img{
+	width: 13px;
+	height: 13px;
+	float: left;
+	margin-top: 2px;
+}
+/*div:h_cha2*/
+.rank .r_container .r_content .r_header .h_cha .h_cha2{
+	width: 500px;
+	height: 40px;
+	/*background: gold;*/
+	margin-top: 10px;
+}
+/*按钮共同特征*/
+/*后4个*/
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha222{
+	display: block;
+	float: left;
+	height: 31px;
+	color: black;
+	font-size: 12px;
+	font-family: "宋体";
+	background: #f7f7f7;
+	border-radius: 4px;
+	border: 1px solid #d2d2d2;
+	margin-left: 3px;
+	position: relative;
+}
+/*后4个图片*/
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha222 img{
+	display: block;
+	width: 18px;
+	height: 18px;
+	margin: 7px 0 7px 7px;
+}
+/*后4个图片文字*/
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha222 span{
+	position: absolute;
+}
+/*前2个*/
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha233{
+	display: block;
+	float: left;
+	height: 31px;
+	background: #297ac7;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: "宋体";
+	border-radius: 4px;
+	border: 1px solid #D2D2D2;
+	position: relative;
+}
+/*前2个图片*/
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha233 img{
+	display: block;
+	width: 18px;
+	height: 18px;
+	/*上、右、下、左*/
+	margin: 7px 0 7px 7px;
+}
+/*前2个图片文字*/
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha222 span{
+	display: block;
+	position: absolute;
+	top: 9.5px;left: 25px;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha21{
+	width: 66px;height: 31px;
+	margin-left: 30px;
+	border-right: none;
+	position: relative;
+	border-top-right-radius: 0em;
+	border-bottom-right-radius: 0em;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha21 span{
+	display: block;
+	position: absolute;
+	top: 9.5px;left: 27px;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha22{
+	width: 31px;
+	border-left: 1px solid #59a1e3;
+	border-top-left-radius: 0em;
+	border-bottom-left-radius: 0em;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha23{
+	width: 84px;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha24{
+	width: 66px;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha25{
+	width: 54px;
+}
+.rank .r_container .r_content .r_header .h_cha .h_cha2 .h_cha26{
+	width: 78px;
+}
+/*ranking右边list*/
+.rank .r_container .r_content .r_list{
+	width: 740px;
+	height: 762px;
+	/*background: yellow;*/
+}
+/*table以上部分*/
+.rank .r_container .r_content .r_list .list_h{
+	width: 670px;
+	height: 30px;
+	/*background: lavender;*/
+	/*上、右、下、左*/
+	padding: 5px 0 0 40px;
+}
+/*"歌曲列表"*/
+.rank .r_container .r_content .r_list .list_h h3{
+	color: #c93a40;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	float: left;
+}
+.rank .r_container .r_content .r_list .list_h .list_h1{
+	display: inline-block;
+	color: #666666;
+	font-size: 12px;
+	float: left;
+	margin: 9px 0 0 20px;
+}
+
+.rank .r_container .r_content .r_list .list_h .list_h33{
+	display: inline-block;
+	color: #666666;
+	font-size: 12px;
+	font-family: arial,helvetica;
+	float: right;
+	margin-top: 9px;
+}
+.rank .r_container .r_content .r_list .list_h .list_h3{
+	color: #c9290c;
+	font-weight: 700;
+	margin-top: 11px;
+}
+/*table的div*/
+.rank .r_container .r_content .r_list .list_t{
+	width: 670px;
+	height: 900px;
+	border-top: 2px solid #c82323;
+	margin: 0 0 0 40px;
+}
+/*table*/
+.rank .r_container .r_content .r_list .list_t .list_tt{
+	width: 670px;
+	height: 900px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	border-collapse:collapse;
+}
+/*thead tr*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr{
+	width: 670px;
+	height: 33px;
+	background: #F7F7F7;
+}
+/*thead tr th*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr .list_t111{
+	height: 33px;
+	border: 1px solid #CCCCCC;
+	/* 阴影
+				 * 水平方向偏移量，垂直方向偏移量(-10px)，虚化度，阴影颜色
+				 * rgb(0,255,150,255,)三原色
+				 * rgba(0,0,0,1) */
+	box-shadow: 0px 0.5px 0.5px #999999;
+	/*取消居中*/
+	text-align: left;
+}
+/*thead tr th1*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr .list_t11{
+	width: 77.6px;
+	border: 1px solid #CCCCCC;
+}
+/*thead tr th2*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr .list_t12{
+	width: 405.6px;
+}
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr .list_t12 div{
+	width: 50px;height: 20px;
+	float: left;
+}
+/*thead tr th3*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr .list_t13{
+	width: 89.6px;
+}
+/*thead tr th4*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr .list_t14{
+	width: 92.8px;
+}
+/*thead tr th div共同特征*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t1 tr .list_t111 div{
+	margin-left: 10px;
+	color: #666;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: arial,helvetica,sans-serif;
+}
+/*tbody tr123共同特征*/
+/*tbody tr123*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21{
+	height: 69.2px;
+}
+/*tbody tr123div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 div{
+	float: left;
+	padding: 10px 0 10px 12px;
+}
+/*tbody tr123td*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 td{
+	position: relative;
+}
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t312 img{
+	width: 18px;height: 18px;
+}
+/*tbody tr123第二个td的第一个div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 .t_img{
+	width: 50px;
+	height: 50px;
+}
+/*tbody tr123第二个td的第二个div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 .t_btn1{
+	width: 16px;
+	height: 16px;
+/*	background: red;*/
+	margin: 17px 6px;
+}
+/*tbody tr123第二个td的第二个div的img*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 .t_btn1 img{
+	width: 20px;
+	height: 20px;
+}
+/*tbody tr123第二个td的第三个span的div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 .song{
+	display: block;
+	margin: 29px 110px;
+}
+/*tbody tr123第二个td的第三个span:歌名*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 .song a{
+	color: #666;
+	font-size: 12px;
+	font-family: arial,helvetica,sans-serif;
+}
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t21 .song a:hover{
+	text-decoration: underline;
+}
+/*tbody tr456...共同特征*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22{
+	height: 29.2px;
+	padding: 10px 0 10px 12px;
+}
+/*tbody tr456div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22 div{
+	float: left;
+	padding: 0 0 0 12px;
+}
+/*tbody tr456td*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22 td{
+	position: relative;
+}
+/*tbody tr456...第二个td的第一个div的btn*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22 .t_btn11{
+	width: 16px;
+	height: 16px;
+	/*background: red;*/
+}
+/*tbody tr456第二个td的第二个div的img*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22 .t_btn11 img{
+	width: 20px;
+	height: 20px;
+}
+/*tbody tr456第二个td的第二个span的div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22 .song11{
+	display: block;
+	margin: 1px 40px;
+}
+/*tbody tr456第二个td的第三个span:歌名*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22 .song11 a{
+	color: #666;
+	font-size: 12px;
+	font-family: arial,helvetica,sans-serif;
+}
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t22 .song11 a:hover{
+	text-decoration: underline;
+}
+/*所有序列号div字体共同特征*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2  .list_t311{
+	color: #999999;
+	font-size: 12px;
+	font-family: arial,helvetica;
+}
+/*tbody tr123456...td的第一个td的div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2  .list_t311{
+	width: 25px;
+	height: 20px;
+}
+/*tbody tr123456...的第一个td的span div*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .list_t321{
+	/*转换为块元素才可以居中*/
+	float: left;
+    width: 25px;
+    margin-left: 0;
+    text-align: center;
+}
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 td{
+	position: relative;
+}
+/*tbody tr123456...的第三个td的span(time)*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .t_time{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	color: #666;
+	font-size: 12px;
+	font-family: arial,helvetica,sans-serif;
+	margin-left: 12px;
+}
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .t_time:hover .t_hide{
+	display: block;
+}
+
+/*tbody tr123456...的第三个td的隐藏div(t_hide)*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .t_hide{
+	width: 75px;
+	height: 8px;
+	background: #f7f7f7;
+	position: absolute;
+	top: 19px;left: -4px;
+	display: none;
+}
+/*tbody tr123456...的第四个td的span(singer)*/
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .t_singer a{
+	color: #666;
+	font-size: 12px;
+	font-family: arial,helvetica,sans-serif;
+}
+.rank .r_container .r_content .r_list .list_t .list_tt .list_t2 .t_singer a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

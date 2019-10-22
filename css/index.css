@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+.circle{
+	width: 100%;
+	height: 336px;
+	background: url(../img/bg1.jpg) repeat-x;
+}
+.circle .content{
+	width: 980px;
+	height: 336px;
+	margin: 0 auto;
+	position: relative;
+}
+.circle .content .ban{
+	width: 982px;
+    height: 336px;
+	cursor: pointer;
+}
+.circle .content .ban .l-img{
+	display: none;
+    width: 730px;
+    height: 336px;
+	position: absolute;
+}
+.circle .content .ban .sel{
+	display: block;
+}
+.circle .content .dot{
+	position: absolute;
+    top: 310px;
+    left: 0;
+    width: 730px;
+    height: 20px;
+    text-align: center;
+}
+.circle .content .dot li{
+	display: inline-block;
+    width: 8px;
+    height: 8px;
+	background-color: #666666;
+	margin-right: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.circle .content .dot li:nth-last-of-type{
+	margin-right: 0px;
+}
+.circle .content .dot .sel{
+	background-color: lemonchiffon;
+}
+.circle .content .btn{
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 37px;
+    height: 63px;
+    text-indent: -9999px;
+	opacity: 0.3;
+	cursor: pointer;
+}
+.circle .content .leftbtn{
+	margin-left: -37px;
+	background: url(../img/left.png) no-repeat;
+	background-size: 37px 63px;
+}
+.circle .content .rightbtn{
+	right: 0px;
+	margin-right: -37px;
+	background: url(../img/right.png) no-repeat;
+	background-size: 37px 63px;
+}
+.circle .content .load{
+	position: absolute;
+    top: 0;
+    z-index: 20;
+    right: -1px;
+    width: 250px;
+    height: 336px;
+	background: url(../img/download.png);
+}
+
+
+
+
+.gedan{
+	position: relative;
+	width: 980px;
+	/* height: 545px; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+.gedan .gedanlist{
+	/* width: 729px;
+	height: 545px; */
+	float: left;
+    width: 100%;
+    margin-right: -250px;
+}
+.gedan .gedanlist .gedancontent{
+	width: 689px;
+	/* height: 545px; */
+	box-sizing: border-box;
+	padding: 20px 20px 40px;
+}
+.gedan .gedanlist .gedancontent .gedancon1{
+	width: 689px;
+	/* height: 523px; */
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd{
+	height: 33px;
+    padding: 0 10px 0 34px;
+    border-bottom: 2px solid #C10D0C;
+	background: url(../img/dian.png) no-repeat 8px 8px;
+	background-size: 18px 18px;
+	position: relative;
+}
+.gedancontent .gedancon1 .con1-hd .title{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 33px;
+	color: #000000;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav{
+	width: 239px;
+	height: 16px;
+	position: absolute;
+	top: 7px;
+	left: 140px;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav a{
+	color: #666;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav a:hover{
+	text-decoration: underline;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav .line{
+	margin: 0 10px;
+    color: #ccc;
+}
+.gedancontent .gedancon1 .con1-hd .gengduo{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	display: inline-block;
+	width: 40px;
+	height: 16px;
+}
+.gedancontent .gedancon1 .con1-hd .gengduo a{
+	color: #666;
+}
+
+
+.gedan .gedancont{
+	position: relative;
+	margin-top: 20px;
+	margin-left: -42px;
+}
+.gedan .gedancont:after{
+	clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+	visibility: hidden;
+}
+.gedan .gedancont li{
+	float: left;
+    display: block;
+    width: 140px;
+    height: 188px;
+    line-height: 1.4;
+    overflow: hidden;
+	padding-left: 42px;
+	margin-bottom: 30px;
+	transition: all 1s;
+}
+.gedan .gedancont li:hover{
+	transform: scale(1.2);
+}
+.gedan .gedancont li .cover{
+	width: 140px;
+    height: 140px;
+	position: relative;
+}
+.gedan .gedancont li .cover img{
+    display: block;
+    width: 100%;
+    height: 100%;	
+}
+.gedan .gedancont li .cover .content{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+li .cover .bottom{
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 27px;
+    color: rgb(204, 204, 204);
+	border: 1px solid #7FFFD4;
+    background-position: 0px -537px;
+	background-color: #080808;
+	opacity: 0.7;
+	z-index: 20;
+}
+li .cover .bottom a{
+	display: block;
+	position: absolute;
+    right: 10px;
+    bottom: 6px;
+    width: 18px;
+    height: 19px;
+	background: url(../img/bofang.png) no-repeat 0px 0px;
+	background-size: cover;
+	opacity: 1;
+}
+li .cover .bottom .listenicon{
+	float: left;
+    width: 16px;
+    height: 13px;
+    background-position: 0 -24px;
+    margin: 6px 5px 9px 10px;
+	background: url(../img/listen.png) no-repeat;
+	background-size: cover;
+	opacity: 1;
+}
+li .cover .bottom .b-count{
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.gedan .gedancont li p{
+	margin-top: 10px;
+}
+.gedan .gedancont li p a{
+	display: inline-block;
+    max-width: 100%;
+    width: 100%;
+	color: #000;
+	font-size: 14px;
+    vertical-align: middle;
+}
+.gedan .gedancont li p a:hover{
+	text-decoration: underline;
+}
+
+
+.gedan .user{
+	/* position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 250px;
+	height: 545px; */
+	position: relative;
+    float: right;
+    width: 250px;
+    zoom: 1;
+}
+.gedan .user .usercount{
+	width: 250px;
+	height: 165px;
+	padding-top: 20px;
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+}
+.gedan .user .usercount .countbox{
+	width: 250px;
+	height: 90.4px;
+}
+.gedan .user .usercount .countbox a{
+	float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    padding: 2px;
+	color: #333333;
+    background: #fff;
+    border: 1px solid #dadada;
+}
+.gedan .user .usercount .countbox a img{
+	display: block;
+	width: 80px;
+	height: 80px;
+}
+.user .usercount .countbox .info{
+	float: left;
+    width: 115px;
+    margin-left: 18px;
+    padding-top: 3px;
+
+}
+.user .usercount .countbox .info h4{
+	overflow: hidden;
+	font-size: 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+.user .usercount .countbox .info p{
+    margin-top: 3px;
+	font-size: 12px;
+	display: inline-block;
+	border-radius: 20%;
+	padding: 0 2px;
+}
+.user .usercount .countbox .info .btnwraper{
+	margin-top: 10px;
+	width: 71px;
+	height: 31px;
+	padding-right: 5px;
+	text-align: center;
+	line-height: 31px;
+	color: #bebebe;
+	font-size: 16px;
+	cursor: pointer;
+	border: 1px solid #bebebe;
+	border-radius: 8%;
+}
+.usercount .dny{
+	margin: 22px 0 0 20px;
+}
+.usercount .dny li{
+	float: left;
+	width: 26px;
+    height: 40px;
+    padding: 0 18px;
+    border-right: 1px solid #e4e4e4;
+}
+.usercount .dny li a{
+	width: 26px;
+	height: 40px;
+	display: block;
+    color: #666;
+}
+.usercount .dny li a strong{
+	display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
+.gedan .user .singer{
+	width: 250px;
+	/* height: 330px; */
+	margin-top: 15px;
+}
+.gedan .user .singer h3{
+	position: relative;
+    height: 23px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+.gedan .user .singer h3 a{
+	position: absolute;
+	right: 5px;
+	color: #666666;
+	font-size: 12px;
+}
+.gedan .user .singer .singerwraper{
+	/* height: 228px; */
+	margin: 6px 0 14px 20px;
+}
+.gedan .user .singer .singerwraper:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.user .singer .singerwraper li{
+	margin-top: 14px;
+	float: left;
+    width: 210px;
+    height: 62px;
+    background: #fafafa;
+}
+.user .singer .singerwraper li a{
+	float: left;
+    width: 210px;
+    height: 62px;
+}
+.user .singer .singerwraper li a .singerpic{
+	float: left;
+    width: 62px;
+    height: 62px;
+}
+.user .singer .singerwraper li .singercont{
+	position: relative;
+	float: left;
+    width: 133px;
+    height: 60px;
+    padding-left: 14px;
+    border: 1px solid #e9e9e9;
+    border-left: none;
+}
+
+.user .singer .singerwraper li .singercont h4{
+	display: inline-block;
+	color: #333333;
+	margin-top: 8px;
+	font-size: 14px;
+}
+.user .singer .singerwraper li .singercont p{
+	width: 90%;
+    margin-top: 8px;
+	color: #666;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.user .singer .shenqing{
+	margin: 0 auto;
+	width: 210px;
+	height: 31px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 31px;
+	cursor: pointer;
+	font-weight: 700;
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+	border: 1px solid silver;
+}
+
+

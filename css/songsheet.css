@@ -1,0 +1,502 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body{
+	font-size: 12px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.topbar{
+	width: 100%;
+	height: 105px;
+}
+.topbar .my_top1{
+	width: 100%;
+	height: 69px;
+	background: #242424;
+	border-bottom: 1px solid #000000;
+}
+.topbar .my_top1 .topwraper{
+	width: 1100px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+}
+.topbar .my_top1 .topwraper .logo{
+	float: left;
+    width: 176px;
+    height: 69px;
+	font-size: 23px;
+	line-height: 69px;
+	letter-spacing: 2px;
+}
+.topbar .my_top1 .topwraper .logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: azure;
+}
+.topbar .my_top1 .topwraper .logo img{
+	width: 40px;
+	height: 40px;	
+	vertical-align: -13px;
+	margin-right: 4px;
+}
+
+.topbar .my_top1 .topwraper .m-nav{
+	width: 508px;
+	height: 70px;
+	float: left;
+}
+.topbar .my_top1 .topwraper .m-nav li{
+	float: left;
+    height: 70px;
+    font-size: 14px;
+	line-height: 70px;
+	padding: 0 19px;
+	color: #E5E5E5;
+	cursor: pointer;
+}
+.topbar .my_top1 .topwraper .m-nav .fst{
+	color: azure;
+	background: #000000;
+}
+.topbar .my_top1 .topwraper .m-nav li:hover{
+	color: azure;
+	background: #000000;
+}
+
+.topbar .my_top1 .topwraper .topcount{
+	float: right;
+	width: 62px;
+	height: 45px;
+	margin-top: 19px;
+	margin-left: 20px;
+}
+.topbar .my_top1 .topwraper .topcount .countpic{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.topbar .my_top1 .topwraper .topcount .xiala{
+	width: 18px;
+	height: 18px;
+	opacity: 0.5;
+	margin-left: 8px;
+}
+.topbar .my_top1 .topwraper .topcount .countlist{
+	position: absolute;
+	top: 48px;
+	right: -43px;
+	width: 158px;
+	background: #2b2b2b;
+	color: azure;
+	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.50);
+	border-radius: 4px;
+	display: none;
+	z-index: 99;
+}
+.topbar .my_top1 .topwraper .topcount:hover .countlist{
+	display: block;
+}
+.topbar .my_top1 .topwraper .topcount .countlist li{
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.topbar .my_top1 .topwraper .topcount .countlist li:hover{
+	background: #8B8B83;
+	cursor: pointer;
+}
+.topbar .my_top1 .topwraper .czz{
+	float: right;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border: 1px solid #4F4F4F;
+    background-position: 0 -140px;
+    line-height: 33px;
+    color: #ccc;
+    border-radius: 20px;
+}
+.topbar .my_top1 .topwraper .m-search{
+	float: right;
+    width: 158px;
+    height: 32px;
+}
+.topbar .my_top1 .topwraper .m-search .srch{
+	margin-top: 19px;
+    background-color: #fff;
+    border-radius: 32px;
+	position: relative;
+}
+.topbar .my_top1 .topwraper .m-search .srch img{
+	position: absolute;
+	top: 4px;
+	left: 0px;
+	width: 30px;
+	border-radius: 30px;
+	z-index: 10;
+}
+.topbar .my_top1 .topwraper .m-search .srch input{
+	width: 108px;
+	height: 34px;
+	color: #333;
+    line-height: 32px;
+	font-size: 12px;
+	padding-left: 30px;
+	border-radius: 32px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	outline: none;
+}
+
+
+.topbar .my_top2{
+	width: 100%;
+	height: 35px;
+	background-color: #C20C0C;
+	border-bottom: 1px solid #a40011;
+}
+.topbar .my_top2 .topwraper2{
+	width: 100%;
+	height: 34px;
+	position: relative;
+}
+.topbar .my_top2 .topwraper2 .wraper{
+	width: 1100px;
+    height: 34px;
+	margin: 0 auto;
+}
+.topbar .my_top2 .topwraper2 .wraper .nav{
+	height: 34px;
+	padding-left: 180px;
+}
+.topbar .my_top2 .topwraper2 .wraper .nav li{
+    float: left;
+    height: 34px;
+	line-height: 34px;
+    text-align: center;
+}
+.topbar .my_top2 .topwraper2 .wraper .nav li a{
+	font-size: 14px;
+	color: #FFD700;
+}
+.topbar .my_top2 .topwraper2 .wraper .nav li a em{
+	display: inline-block;
+	font-style:normal;
+    height: 20px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    border-radius: 20px;
+    line-height: 21px;
+}
+.topbar .my_top2 .topwraper2 .nav li:hover a em{
+	background: #9B0909;
+	color: #FFD700;
+}
+
+.gedan{
+	width: 980px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.gedan .gedanlist{
+	width: 950px;
+	height: 1000px;
+	margin: auto;
+}
+.gedan .gedanlist .gedancontent{
+	width: 910px;
+	height: 941px;
+	padding: 20px 20px 40px;
+}
+.gedan .gedanlist .gedancontent .gedancon1{
+	width: 900px;
+	height: 523px;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd{
+	height: 33px;
+    padding: 0 10px 0 34px;
+    border-bottom: 2px solid #C10D0C;
+	background: url(../img/dian.png) no-repeat 8px 8px;
+	background-size: 18px 18px;
+	position: relative;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose{
+	background: #F0FFFF;
+	width: 91px;
+	height: 28px;
+	position: absolute;
+	bottom:3px ;
+	left: 100px;
+	box-shadow: -2px 3px 3px #666666;
+	border-radius:5px;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose:hover{
+	background: #90EE90;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list{
+	width: 320px;
+	height: 128px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 38px;
+	left: -120px;
+	border: 1px solid #EEEEEE;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 99px;
+	display: none;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list:hover{
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list .all{
+	height:45px;
+	width: 100%;
+}	
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list .all a{
+	display: block;
+	background: #CCCCCC;
+	width:75px ;
+	height: 26px;
+	font-family: 微软雅黑;
+	color: #2B2B2B;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 26px;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	box-shadow: -3px 3px 3px rgba(0,0,0,0.3);
+	
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list .all a:hover{
+	background: #E5E5E5;
+	/* 显示那个；列表 */
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list .language{
+	height: 40px;
+	width: 180px;
+	margin: auto;
+	position: relative;
+	background: ;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list .language .language1{
+	width: 70.8px;
+	height: 40px;
+	position: absolute;
+	top: -20px;
+	border-right: #666666;
+}
+ .gedanlist .gedancontent .gedancon1 .con1-hd .top_choose .chose_list .language .language1 span{
+	 display: block;
+	 float: right;
+	 left: 20px;
+	 text-align: center;
+	font-size: 14px;
+} 
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose ul{
+	list-style: none;
+	display: block;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose ul li{
+	list-style: none;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose ul li a{
+	display: inline-block;
+	width: 100px;
+	/* 字体块高和整个行高一致 */
+	height: 28px;
+	line-height: 28px;
+	position: absolute;
+	left: 16px;
+	text-decoration: none;
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd .top_choose ul li img{
+	width: 10px;
+	height: 10px;
+	/* 加上浮动就变成块元素了 */
+	transform: rotate(90deg);
+	position: absolute;
+	right: 12px;top:10px;
+}
+
+.gedancontent .gedancon1 .con1-hd .title{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 33px;
+	color: #000000;
+}
+.gedancontent .gedancon1 .con1-hd .button{
+	font-size: 20px;
+/* 	width: 50px;	
+	height: 30px; */
+	background: lightgreen;
+	position: absolute;
+	
+	bottom:3px ;
+	right: 50px;
+}
+.gedancontent .gedancon1 .con1-hd .button ul{
+	list-style: none;
+	height: 100%;
+	width: 100%;
+	float: left;
+	box-shadow: -3px 5px 5px black;
+	
+}
+.gedancontent .gedancon1 .con1-hd .button ul li{
+	list-style: none;
+	width: 46px;
+	height: 29px;
+	border-left:1px solid #FFFFFF;
+	float: left;
+	border-radius:3px;
+	
+}
+.gedancontent .gedancon1 .con1-hd .button ul .chose{
+	display: inline-block;
+	background:indianred;
+	font-size: 12px;
+	text-decoration: none;
+}
+.gedancontent .gedancon1 .con1-hd .button ul .chose2{
+	background:#fff;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+}
+.gedancontent .gedancon1 .con1-hd .button ul li a{
+	display: inline-block;
+	width: 46px;
+	/* 字体块高和整个行高一致 */
+	height: 29px; 
+	font-size: 12px;
+	color: #333;
+	line-height: 29px;
+	text-align: center;
+	text-decoration: none;
+}
+.gedancontent .gedancon1 .con1-hd .button ul li a:hover{
+	text-decoration: underline;
+}
+.gedancontent .gedancon1 .con1-hd .gengduo{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	display: inline-block;
+	width: 40px;
+	height: 16px;
+}
+.gedancontent .gedancon1 .con1-hd .gengduo a{
+	color: #666;
+}
+
+
+.gedan .gedancont{
+	position: relative;
+	margin-top: 20px;
+	margin-left: -42px;
+}
+.gedan .gedancont li{
+	float: left;
+    display: inline-block;
+    width: 140px;
+    height: 188px;
+    line-height: 1.4;
+    overflow: hidden;
+	padding-left: 42px;
+	margin-bottom: 30px;
+}
+.gedan .gedancont li .cover{
+	width: 140px;
+    height: 140px;
+	position: relative;
+}
+.gedan .gedancont li .cover img{
+    display: block;
+    width: 100%;
+    height: 100%;	
+	
+}
+
+.gedan .gedancont li .cover .content{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+li .cover .bottom{
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 27px;
+    color: rgb(204, 204, 204);
+	border: 1px solid #7FFFD4;
+    background-position: 0px -537px;
+	background-color: #080808;
+	opacity: 0.7;
+	z-index: 20;
+}
+li .cover .bottom a{
+	display: block;
+	position: absolute;
+    right: 10px;
+    bottom: 6px;
+    width: 18px;
+    height: 19px;
+	background: url(../img/bofang.png) no-repeat 0px 0px;
+	background-size: cover;
+	opacity: 1;
+}
+li .cover .bottom .listenicon{
+	float: left;
+    width: 16px;
+    height: 13px;
+    background-position: 0 -24px;
+    margin: 6px 5px 9px 10px;
+	background: url(../img/listen.png) no-repeat;
+	background-size: cover;
+	opacity: 1;
+}
+li .cover .bottom .b-count{
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.gedan .gedancont li p{
+	margin-top: 10px;
+}
+.gedan .gedancont li p a{
+	display: inline-block;
+    max-width: 100%;
+    width: 100%;
+	color: #000;
+	font-size: 14px;
+    vertical-align: middle;
+}
+.gedan .gedancont li p a:hover{
+	text-decoration: underline;
+	transform: scale(1.2);
+	color: #CD5C5C;
+}
+.cover:hover{
+	transform: scale(1.2);
+	box-shadow: -3px 3px 3px rgba(0,0,0,0.3);
+	border-radius:3px ;
+}
+

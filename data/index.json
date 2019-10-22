@@ -1,0 +1,53 @@
+{
+    "hot": [{
+        "imgUrl": "../img/ge1.jpg",
+        "count": "550万",
+        "description": "2019年六月最热新歌TOP50"
+    },{
+        "imgUrl": "../img/ge2.jpg",
+        "count": "5150万",
+        "description": "华语速爆新歌"
+    },{
+        "imgUrl": "../img/ge3.jpg",
+        "count": "1216",
+        "description": " 戳爷Troye Sivan | 糟糕，是心动的感觉！"
+    },{
+        "imgUrl": "../img/ge4.jpg",
+        "count": "1364万",
+        "description": "好听到单曲循环"
+    },{
+        "imgUrl": "../img/ge5.jpg",
+        "count": "1103",
+        "description": "I like BiuBiu-小一哥哥Ooo"
+    },{
+        "imgUrl": "../img/ge6.jpg",
+        "count": "2703万",
+        "description": "『云村热歌』评论10w+（全收录）"
+    },{
+        "imgUrl": "../img/ge7.jpg",
+        "count": "63万",
+        "description": "爵士集 | 你是雾我是酒馆"
+    },{
+        "imgUrl": "../img/ge8.jpg",
+        "count": "24万",
+        "description": "忽而今夏"
+    }],
+
+    "singer":[{
+        "imgUrl": "../img/singer1.jpg",
+        "name": "张惠妹aMEI",
+        "description": "台湾歌手张惠妹"
+    },{
+        "imgUrl": "../img/singer2.jpg",
+        "name": "Fine乐团",
+        "description": "独立音乐人"
+    },{
+        "imgUrl": "../img/singer3.jpg",
+        "name": "音乐人赵雷",
+        "description": "民谣歌手"
+    },{
+        "imgUrl": "http://p2.music.126.net/ZuktZvjcxpYBjcWC3gmbPg==/19027048718765608.jpg?param=62y62",
+        "name": "萬曉利",
+        "description": "民谣歌手、中国现代民谣的代表人物之一"
+    }]
+}

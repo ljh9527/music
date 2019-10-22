@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>排行榜-网易云音乐</title>
+	<link rel="shortcut icon" type="text/css" href="./img/logo.png" />
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<!--导入檬音乐排行榜-->
+	<link rel="stylesheet" type="text/css" href="css/ranking.css" />
+	<link rel="stylesheet" type="text/css" href="css/foot.css" />
+</head>
+
+<body>
+	<div class="topbar">
+		<div class="my_top1">
+			<div class="topwraper">
+				<h1 class="logo">
+					<a href="#">
+						<img src="img/logo.png">网易云音乐
+					</a>
+				</h1>
+				<ul class="m-nav">
+					<li class="fst">发现音乐</li>
+					<li>我的音乐</li>
+					<li>朋友</li>
+					<li>商城</li>
+					<li>音乐人</li>
+					<li>下载客户端</li>
+				</ul>
+				<div class="topcount">
+					<img class="countpic" src="img/touxiang.png">
+					<img class="xiala" src="img/down.png">
+					<div class="countlist">
+						<ul>
+							<li>我的主页</li>
+							<li>我的消息</li>
+							<li>我的等级</li>
+							<li>VIP会员</li>
+							<li>个人设置</li>
+							<li>实名认证</li>
+							<li>退出</li>
+						</ul>
+					</div>
+				</div>
+				<a class="czz" href="#">创作者中心</a>
+				<div class="m-search">
+					<div class="srch">
+						<img src="img/sousuo.png">
+						<input type="text" name="text" value="音乐/视频/电台/用户"
+							onfocus="javascript:if(this.value=='音乐/视频/电台/用户')this.value='';"
+							onblur="if(this.value=='')this.value='音乐/视频/电台/用户'" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="my_top2">
+			<div class="topwraper2">
+				<div class="wraper">
+					<ul class="nav">
+						<li><a href="index.html"><em>推荐</em></a></li>
+						<li><a href="ranking.html"><em>排行榜</em></a></li>
+						<li><a href="songsheet.html"><em>歌单</em></a></li>
+						<li><a href="diantai.html"><em>主播电台</em></a></li>
+						<li><a href="singer.html"><em>歌手</em></a></li>
+						<li><a href="newsong.html"><em>新碟上架</em></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--导航栏以下部分ranking-->
+	<div class="rank">
+		<!--ranking容器-->
+		<div class="r_container">
+			<!--ranking左边导航栏-->
+			<div class="r_side">
+				<div class="side_container">
+					<h2 class="r_f">檬音乐特色榜</h2>
+					<ul class="r_ff">
+						<li class="r_select">
+							<div class="r_in r_in1">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/new0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐新歌榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/CGC0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐飙升榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/voice0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐新声榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#" class="aaa"><img src="img/ranking/original0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐原创歌曲榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+					</ul>
+					<h2 class="r_f r_f1">全球媒体榜</h2>
+					<ul class="r_ff">
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/new0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐新歌榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/classical0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐古典音乐榜</a></p>
+								<p><a href="#" class="aaa">每周二更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#" class="aaa"><img src="img/ranking/rap0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐说唱榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#" class="aaa"><img src="img/ranking/omei0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐欧美新歌榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/ele0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐电音榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/trill0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐抖音榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/ACG0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐ACG音乐榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/UK0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐UK排行榜</a></p>
+								<p><a href="#" class="aaa">每天更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/billboard0.jpg" /></a>
+								</div>
+								<p><a href="#">檬音乐Billboard榜</a></p>
+								<p><a href="#" class="aaa">每周二更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/beatport0.jpg" /></a>
+								</div>
+								<p><a href="#">Beatport全球电子舞榜</a></p>
+								<p><a href="#" class="aaa">每周二更新</a></p>
+							</div>
+						</li>
+						<li class="r_select">
+							<div class="r_in">
+								<div class="r_item">
+									<a href="#"><img src="img/ranking/Q0.jpg" /></a>
+								</div>
+								<p><a href="#">英国Q杂志中文版榜</a></p>
+								<p><a href="#" class="aaa">每周二更新</a></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--ranking右边-->
+			<div class="r_content">
+				<!--ranking右边头部-->
+				<div class="r_header">
+					<div class="h_container">
+						<!--图片-->
+						<div class="h_img">
+							<img src="img/ranking/CGC1.jpg" />
+						</div>
+						<!--图片右边-->
+						<div class="h_cha">
+							<div class="h_cha1">
+								<h2 class="h_f1">檬音乐飙升榜</h2>
+								<p class="h_f2"><img
+										src="img/ranking/icon/shijian.png" />最近更新：07月30日<span>&nbsp;&nbsp;&nbsp;(每天更新)</span>
+								</p>
+							</div>
+							<!--按钮-->
+							<div class="h_cha2">
+								<a href="#" class="h_cha21 h_cha233"><img
+										src="img/ranking/icon/bofang.png" /><span>播放</span></a>
+								<!--添加到播放列表-->
+								<a href="#" class="h_cha22 h_cha233"><img src="img/ranking/icon/hao.png" /></a>
+								<!--收藏-->
+								<a href="#" class="h_cha23 h_cha222"><img
+										src="img/ranking/icon/shoucang.png" /><span>(201612)</span></a>
+								<!--转发-->
+								<a href="#" class="h_cha24 h_cha222"><img
+										src="img/ranking/icon/web-icon-.png" /><span>(6666)</span></a>
+								<a href="#" class="h_cha25 h_cha222"><img
+										src="img/ranking/icon/xiazai.png" /><span>下载</span></a>
+								<!--评论-->
+								<a href="#" class="h_cha26 h_cha222"><img
+										src="img/ranking/icon/pinglun.png" /><span>(201612)</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--右ranking底部歌曲-->
+				<div class="r_list">
+					<!--table以上-->
+					<div class="list_h">
+						<h3>歌曲列表</h3>
+						<span class="list_h1">10首歌</span>
+						<span class="list_h4 list_h33">次</span>
+						<span class="list_h3 list_h33">66666666</span>
+						<span class="list_h2 list_h33">播放次数：</span>
+					</div>
+					<div class="list_t">
+						<table class="list_tt" border="0">
+							<!--标题栏-->
+							<thead class="list_t1">
+								<tr>
+									<th class="list_t11"></th>
+									<th class="list_t12 list_t111">
+										<div>标题</div>
+									</th>
+									<th class="list_t13 list_t111">
+										<div>时长</div>
+									</th>
+									<th class="list_t14 list_t111">
+										<div>歌手</div>
+									</th>
+								</tr>
+							</thead>
+							<!--内容栏-->
+							<tbody class="list_t2">
+								<tr class="list_t21">
+									<td>
+										<!--111111111111111111111111111111111111111111111111111111-->
+										<div class="list_t311"><span class="list_t321">1</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--歌单图片-->
+										<div class="t_img"><a href="#"><img src="img/ranking/songs/migong.jpg" /></a>
+										</div>
+										<!--播放按钮-->
+										<div class="t_btn1"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td class="bbb">
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+
+										<span class="t_time">3:12
+											<div class="t_hide">
+												<!--隐藏-->
+												<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+												<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+												<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+												<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+											</div>
+										</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t21">
+									<td>
+										<!--22222222222222222222222222222222222222222222222222222-->
+										<div class="list_t311"><span class="list_t321">2</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--歌单图片-->
+										<div class="t_img"><a href="#"><img src="img/ranking/songs/222.jpg" /></a></div>
+										<!--播放按钮-->
+										<div class="t_btn1"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song"><a href="#">不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t21">
+									<td>
+										<div class="list_t311"><span class="list_t321">3</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--歌单图片-->
+										<div class="t_img"><a href="#"><img src="img/ranking/songs/milk.jpg" /></a>
+										</div>
+										<!--播放按钮-->
+										<div class="t_btn1"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song"><a href="#">不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<!--44444444444444444444444444444444444444444444444-->
+										<div class="list_t311"><span class="list_t321">4</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<!--55555555555-->
+										<div class="list_t311"><span class="list_t321">5</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">6</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">7</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">8</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">9</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">10</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">11</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">12</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">13</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">14</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">15</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">16</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">17</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">18</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">19</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">20</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">21</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">22</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">23</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">24</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+								<tr class="list_t22">
+									<td>
+										<div class="list_t311"><span class="list_t321">25</span></div>
+										<div class="list_t312"><img src="img/ranking/icon/new.png" /></div>
+									</td>
+									<td>
+										<!--播放按钮-->
+										<div class="t_btn11"><a href="#"><img
+													src="img/ranking/icon/bofang (2).png" /></a></div>
+										<!--播放歌曲名-->
+										<span class="song11"><a href="#">他不喜欢你</a></span>
+										<!--播放MV-->
+										<!--<div><a href="#"><img src="img/ranking/icon/bofang (2).png" /></a></div>-->
+									</td>
+									<td>
+										<!--隐藏按钮：添加、收藏、下载、转发-->
+										<div class="t_hide">
+											<!--隐藏-->
+											<a href="#"><img src="img/ranking/icon/bofang (2).png" /></a>
+											<a href="#"><img src="img/ranking/icon/shoucang.png" /></a>
+											<a href="#"><img src="img/ranking/icon/web-icon-.png" /></a>
+											<a href="#"><img src="img/ranking/icon/xiazai.png" /></a>
+										</div>
+										<span class="t_time">3:12</span>
+									</td>
+									<td>
+										<div><span class="t_singer"><a href="#">冯圆缘</a></span></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--ranking容器-->
+
+	<div class="t2">
+		<div class="t21">
+			<div class="left_bottom">
+				<div class="lm">
+					<a href="#">服务条款</a>
+					<span>|</span>
+					<a href="#">隐私政策</a>
+					<span>| </span>
+					<a href="#">版权投诉指引</a>
+					<span> | </span>
+					<a href="#">意见反馈</a>
+					<span> | </span>
+				</div>
+				<div class="lp">
+					<span>柠檬云公司版权所有1997-2019&nbsp&nbsp成都六个柠檬科技有限公司运营：浙网文[2018]666666号</span>
+				</div>
+				<div class="lc">
+					<span>违法和不良信息举报电话：6666-666666 举报邮箱：ningmeng@163.com</span>
+				</div>
+			</div>
+			<div class="right_bottom">
+				<div class="wz">
+					<a href="#"><img src="img/rz.jpg" /></a>
+					<a href="#"><img src="img/yz.jpg" /></a>
+					<a href="#"><img src="img/zs.jpg" /></a>
+					<a href="#"><img src="img/sp.jpg" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/ranking.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

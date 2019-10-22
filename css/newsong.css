@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+
+.gedan{
+	width: 980px;
+	height: 1250px;
+	margin: 0 auto;
+	/*background: bisque;*/
+}
+.gedan .gedanlist{
+	width: 950px;
+	height: 500px;
+	margin: auto;
+}
+.gedan .gedanlist .gedancontent{
+	width: 910px;
+	height: 700px;
+	padding: 20px 20px 40px;
+}
+.gedan .gedanlist .gedancontent .gedancon1{
+	width: 900px;
+	height: 523px;
+	/*border: 1px solid seagreen;*/
+}
+.gedanlist .gedancontent .gedancon1 .con1-hd{
+	height: 33px;
+    padding: 0 10px 0 0;
+    border-bottom: 2px solid #C10D0C;
+
+	background-size: 18px 18px;
+	position: relative;
+}
+.gedancontent .gedancon1 .con1-hd .title{
+    
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 33px;
+	color: #000000;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav{
+	width: 239px;
+	height: 16px;
+	position: absolute;
+	top: 7px;
+	left: 140px;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav a{
+	color: #666;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav a:hover{
+	text-decoration: underline;
+}
+.gedancontent .gedancon1 .con1-hd .con1-nav .line{
+	margin: 0 10px;
+    color: #ccc;
+}
+.gedancontent .gedancon1 .con1-hd .gengduo a{
+	color: #666;
+}
+
+
+.gedan .gedancont{
+	position: relative;
+	margin-top: 20px;
+	margin-left: -42px;
+}
+.gedan .gedancont li{
+	float: left;
+    display: inline-block;
+    width: 140px;
+    height: 188px;
+    line-height: 1.4;
+    overflow: hidden;
+	padding-left: 42px;
+	margin-bottom: 30px;
+	transition: all 0.5s linear;
+	
+}
+.gedan .gedancont li .cover{
+	width: 140px;
+    height: 140px;
+	position: relative;
+
+	
+}
+/*.gedan .gedancont li:hover{
+	 transform: scale(1.2);
+	}*/
+.gedan .gedancont li .cover img{
+
+    /*display: block;*/
+    width: 140px;
+    height: 130px;	
+   
+}
+
+.gedan .gedancont li .cover .content{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%; 
+}
+li .cover .bottom{
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 27px;
+    color: rgb(204, 204, 204);
+	border: 1px solid #7FFFD4;
+    background-position: 0px -537px;
+	background-color: #080808;
+	opacity: 0.7;
+	z-index: 20;
+}
+li .cover .bottom a .listen{
+	display: block;
+	position: absolute;
+    right: 10px;
+    bottom: 6px;
+    width: 18px;
+    height: 19px;
+	/*background: url(../img/bofang.png) no-repeat 0px 0px;*/
+	background-size: cover;
+	opacity: 1;
+}
+
+li .cover .bottom .listenicon{
+	float: left;
+    width: 16px;
+    height: 13px;
+    background-position: 0 -24px;
+    margin: 6px 5px 9px 10px;
+	background: url(../img/listen.png) no-repeat;
+	background-size: cover;
+	opacity: 1;
+}
+li .cover .bottom .b-count{
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.gedan .gedancont li p{
+	margin-top: 10px;
+}
+.gedan .gedancont li p a{
+	display: inline-block;
+    max-width: 100%;
+    width: 100%;
+	color: #000;
+	font-size: 14px;
+    vertical-align: middle;
+}
+.gedan .gedancont li  .bottom_text{
+   display: inline-block;
+   font-size: 12px;
+   color: #666666;
+}
+.gedan .gedancont li p a:hover{
+	text-decoration: underline;
+}
+.move{
+	animation: move 2s linear;
+}
+
+@keyframes move{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.2);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
